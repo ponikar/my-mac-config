@@ -112,6 +112,7 @@ alias gc="git checkout $1"
 alias gcn="git checkout -b $1"
 alias gm="git commit -m $1"
 alias gpuo="git pull origin $1"
+alias synczsh="~/.zsh/sync_config.sh"
 
 
 # Paths 
@@ -121,3 +122,4 @@ export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/tools/bin:$PATH
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 source /Users/ponikar/.rvm/scripts/rvm
+
